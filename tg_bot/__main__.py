@@ -22,19 +22,19 @@ I am an Anime themed group management bot.
 
 You can find the list of available commands with /help.
 
-[Kigyō's Repo](https://github.com/Dank-del/EnterpriseAL) 
+[Senkuu's Repo](https://github.com/FtSasaki/Senku) 
 
-The support group chat is at @YorktownEagleUnion
+The support group chat is at @Sciencers
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a part of Eagle Union.
+I'm a part of Sciencers.
 
 Have a look at the following for an idea of some of \
 the things I can help you with.
 
-I'm managed by [dank_as_fuck](https://t.me/dank_as_fuck)
+I'm managed by [FtSasaki](https://t.me/FtSasaki)
 AI and blacklist module from [TheRealPhoenixBot](https://github.com/rsktg/TheRealPhoenixBot.git)
 Source code from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
@@ -53,7 +53,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Kigyō is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Senkuu is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
