@@ -1,18 +1,18 @@
-![Enterprise](https://i.imgur.com/IYqzviU.jpg)
-# Kigyō bot
+![Enterprise](https://i.imgur.com/lCrjYfh.png)
+# Senkuu_bot
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/04423a6d18ab43d396ab738fca5ba804)](https://www.codacy.com/manual/Dank-del/EnterpriseAL?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Dank-del/EnterpriseAL&amp;utm_campaign=Badge_Grade)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dank-del/EnterpriseAL)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FtSasaki/Senku)
 
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a marie fork - Kigyō has evolved further and was built to be more useful for Anime Chats. 
 
-Can be found on telegram as [Kigyōbot](https://t.me/kigyorobot).
+Can be found on telegram as [Kigyōbot](https://t.me/Senkuu_bot).
 
-The Support group can be reached out to at [Eagle Union](https://t.me/YorktownEagleUnion), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Sciencers](https://t.me/Sciencers), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
  
 
@@ -24,7 +24,7 @@ The Support group can be reached out to at [Eagle Union](https://t.me/YorktownEa
   
  
  
- Note: This instruction set is just a copy paste from marie, note that [Eagle Union](https://t.me/YorktownEagleUnion) aims to handle support for @Kigyōbot and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
+ Note: This instruction set is just a copy paste from marie, note that [Sciencers](https://t.me/Sciencers) aims to handle support for @Kigyōbot and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
   
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions!
@@ -186,7 +186,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Eagle Union](https://t.me/YorktownEagleUnion)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Sciencers](https://t.me/Sciencers)
 ## How to setup on Heroku 
 For starters click on this button
 
@@ -208,4 +208,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 Any other authorship/credits can be seen through the commits.
 
 
-Should any be missing kindly let us know at [Eagle Union](https://t.me/YorktownEagleUnion) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Sciencers](https://t.me/Sciencers) or simply submit a pull request on the readme.
