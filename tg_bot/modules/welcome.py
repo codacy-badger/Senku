@@ -100,7 +100,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
-                update.effective_message.reply_text("Whoa! A member of the Eagle Union just joined!")
+                update.effective_message.reply_text("Whoa! A member of the Sciencers just joined!")
 
             # Welcome Sudos
             elif new_mem.id in SUDO_USERS:
@@ -272,12 +272,12 @@ def left_member(bot: Bot, update: Update):
 
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
-                update.effective_message.reply_text("Oi! Genos! He left..")
+                update.effective_message.reply_text("Oi! Chrome! He left..")
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
-                update.effective_message.reply_text("See you later at the Hero's Union!")
+                update.effective_message.reply_text("See you later at the Sciencers's Union!")
                 return
 
             # if media goodbye, use appropriate function for it
