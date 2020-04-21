@@ -10,7 +10,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a marie fork - Kigyō has evolved further and was built to be more useful for Anime Chats. 
 
-Can be found on telegram as [Kigyōbot](https://t.me/Senkuu_bot).
+Can be found on telegram as [Senku](https://t.me/Senkuu_bot).
 
 The Support group can be reached out to at [Sciencers](https://t.me/Sciencers), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
@@ -24,7 +24,7 @@ The Support group can be reached out to at [Sciencers](https://t.me/Sciencers), 
   
  
  
- Note: This instruction set is just a copy paste from marie, note that [Sciencers](https://t.me/Sciencers) aims to handle support for @Kigyōbot and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
+ Note: This instruction set is just a copy paste from marie, note that [Sciencers](https://t.me/Sciencers) aims to handle support for @Senku and now how to setup your own fork, if you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to setup the bot instance in the support chat, it aims to help our own instance of the bot. 
   
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions!
