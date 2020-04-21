@@ -28,16 +28,16 @@ def check_user_id(user_id: int, bot: Bot) -> Optional[str]:
     return reply
 
 #I added extra new lines 
-Nations = """ Kigyō has bot access levels we call as *"Nation Levels"*
-\n*Eagle Union* - Devs who can access the bots server and can execute, edit, modify bot code. Can also manage other Nations
+Nations = """ Senkuu_bot has bot access levels we call as *"Nation Levels"*
+\n*Sciencers* - Devs who can access the bots server and can execute, edit, modify bot code. Can also manage other Nations
 \n*God* - Only one exists, bot owner. 
-Owner has complete bot access, including bot adminship in chats Kigyō is at.
-\n*Royals* - Have super user access, can gban, manage Nations lower than them and are admins in Kigyō.
-\n*Sakuras* - Have access go globally ban users across Kigyō.
+Owner has complete bot access, including bot adminship in chats Senkuu_bot is at.
+\n*Royals* - Have super user access, can gban, manage Nations lower than them and are admins in Senkuu_bot.
+\n*Sakuras* - Have access go globally ban users across Senkuu_bot.
 \n*Sardegnas* - Same as Neptunians but can unban themselves if banned.
 \n*Neptunians* - Cannot be banned, muted flood kicked but can be manually banned by admins.
-\n*Disclaimer*: The Nation levels in Kigyō are there for troubleshooting, support, banning potential scammers.
-Report abuse or ask us more on these at [Eagle Union](https://t.me/YorktownEagleUnion).
+\n*Disclaimer*: The Nation levels in Senkuu_bot are there for troubleshooting, support, banning potential scammers.
+Report abuse or ask us more on these at [Sciencers](https://t.me/Sciencers).
 """
 # do not async, not a handler 
 def send_Nations(update):
@@ -541,7 +541,7 @@ def sudolist(bot: Bot, update: Update):
 @whitelist_plus
 def devlist(bot: Bot, update: Update):
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>Hero Union Members ⚡️:</b>\n"
+    reply = "<b>Sciencers Union Members ⚡️:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
@@ -553,13 +553,13 @@ def devlist(bot: Bot, update: Update):
 
 
 __help__ = """
- - /Eagle - Lists all Hero Union members.
+ - /Sciencers - Lists all Sciencers Union members.
  - /Royals - Lists all Royal Nations.
  - /Sakuras - Lists all Sakura Nations.
  - /Sardegnas - Lists all Sardegnas Nations.
  - /Neptunians - Lists all Neptunia Nations.
  Note: These commands list users with special bot priveleges and can only be used by them.
- You can visit @YorktownEagleUnion to query more about these.
+ You can visit @Sciencers to query more about these.
 """
 
 SUDO_HANDLER = CommandHandler(("addsudo", "addRoyal"), addsudo, pass_args=True)
@@ -575,7 +575,7 @@ WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "Neptunians"], whitelis
 SARDEGNALIST_HANDLER = CommandHandler(["Sardegnas"], Sardegnalist)
 SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "Sakuras"], supportlist)
 SUDOLIST_HANDLER = CommandHandler(["sudolist", "Royals"], sudolist)
-DEVLIST_HANDLER = CommandHandler(["devlist", "Eagle"], devlist)
+DEVLIST_HANDLER = CommandHandler(["devlist", "Sciencers"], devlist)
 
 dispatcher.add_handler(SUDO_HANDLER)
 dispatcher.add_handler(SUPPORT_HANDLER)
